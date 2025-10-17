@@ -50,7 +50,7 @@ EDA was conducted to understand the dataset characteristics:
 
 ## ⚙️ Model Architectures
 
-### 🧩 1. Baseline Model — *AlexNet (Manual Implementation)*
+### 🧩 1. Baseline Model: *AlexNet (Manual Implementation)*
 The baseline model follows the original **AlexNet** structure:
 - 5 convolutional layers with varying filter sizes  
 - ReLU activations  
@@ -58,7 +58,7 @@ The baseline model follows the original **AlexNet** structure:
 - Two dense layers (4096 neurons each) with Dropout (0.5)  
 - Output layer with Softmax activation for 4 classes  
 
-### 🧪 2. Modified Model — *Enhanced CNN*
+### 🧪 2. Modified Model: *Enhanced CNN*
 To improve generalization, the modified model includes:
 - **Leaky ReLU** activations  
 - **Batch Normalization** between convolutional layers  
@@ -70,7 +70,7 @@ To improve generalization, the modified model includes:
 
 ## 📈 Model Evaluation
 
-### 🔹 Classification Report — Baseline Model
+### 🔹 Classification Report: Baseline Model
 | Metric | Precision | Recall | F1-score |
 |--------|-----------|--------|----------|
 | Glioma | 0.00 | 0.00 | 0.00 |
@@ -84,7 +84,7 @@ The baseline AlexNet achieved **26% accuracy**, struggling particularly with gli
 
 ---
 
-### 🔹 Classification Report — Modified Model
+### 🔹 Classification Report: Modified Model
 | Metric | Precision | Recall | F1-score |
 |--------|-----------|--------|----------|
 | Glioma | 0.55 | 0.05 | 0.10 |
