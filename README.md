@@ -1,5 +1,7 @@
 # 🧬 Brain Tumor MRI Classification using Convolutional Neural Networks (CNN)
 
+![Brain Tumor Classification Preview](./preview_brain_tumor.png)
+
 This project focuses on building and evaluating **Convolutional Neural Network (CNN)** architectures for classifying brain MRI images into four categories: **glioma**, **meningioma**, **pituitary**, and **no tumor**.  
 The aim is to explore model performance in multiclass medical image classification using both **baseline AlexNet architecture** and an **enhanced CNN model** with regularization techniques.
 
